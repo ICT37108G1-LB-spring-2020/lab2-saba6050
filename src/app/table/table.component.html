@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <td>index</td>
+    <td>name</td>
+    <td>lastname</td>
+    <td>ID</td>
+    <td>status</td>
+  </tr>
+  <tr *ngFor="let student of students; let Myindex = index" class="foor">
+    <td>{{ Myindex }}</td>
+    <td>{{ student.name }}</td>
+    <td>{{ student.lastname }}</td>
+    <td>{{ student.id }}</td>
+    <td>{{ student.status }}</td>
+  </tr>
+</table>

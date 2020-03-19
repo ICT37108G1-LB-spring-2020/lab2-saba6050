@@ -1,0 +1,25 @@
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    
+  }
+  
+  th {
+    height: 50px;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px;
+  }
