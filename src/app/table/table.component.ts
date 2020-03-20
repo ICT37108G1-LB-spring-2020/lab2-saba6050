@@ -12,6 +12,12 @@ export class TableComponent implements OnInit {
 
   constructor() {
     this.students = [
+     {
+        name: 'shota',
+        lastname: 'puradze',
+        status: 'Student',
+        id: '1231231231'
+      },
       {
         name: 'nikoloz',
         lastname: 'palagashvili',
@@ -27,6 +33,13 @@ export class TableComponent implements OnInit {
       {
         name:'lasha',
         lastname:'tsevelidze',
+        status:'Student',
+        id:'1231231231'
+      },
+
+      {
+        name:'gela',
+        lastname:'geladze',
         status:'Student',
         id:'1231231231'
       }
